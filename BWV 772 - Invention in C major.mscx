@@ -1517,33 +1517,46 @@
         <StaffType group="pitched">
           </StaffType>
         </Staff>
-      <trackName>Piano</trackName>
+      <trackName>Harpsichord</trackName>
       <Instrument>
-        <trackName>Piano</trackName>
-        <minPitchP>21</minPitchP>
-        <maxPitchP>108</maxPitchP>
-        <minPitchA>21</minPitchA>
-        <maxPitchA>108</maxPitchA>
+        <trackName>Harpsichord</trackName>
+        <minPitchP>29</minPitchP>
+        <maxPitchP>89</maxPitchP>
+        <minPitchA>29</minPitchA>
+        <maxPitchA>89</maxPitchA>
+        <instrumentId>keyboard.harpsichord</instrumentId>
+        <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
           <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
           </Articulation>
         <Articulation name="staccato">
           <velocity>100</velocity>
           <gateTime>50</gateTime>
           </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
         <Articulation name="tenuto">
           <velocity>100</velocity>
           <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
           </Articulation>
         <Articulation name="sforzato">
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
-          <controller ctrl="93" value="30"/>
-          <controller ctrl="91" value="30"/>
+          <controller ctrl="32" value="1"/>
+          <program value="1"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
