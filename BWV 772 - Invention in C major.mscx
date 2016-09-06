@@ -4818,6 +4818,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.258281" y="5.19406"/>
+              <text>2</text>
+              </Fingering>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -5575,6 +5579,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="1.50188"/>
+              <text>3</text>
+              </Fingering>
             <pitch>43</pitch>
             <tpc>15</tpc>
             </Note>
