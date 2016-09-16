@@ -1681,6 +1681,10 @@
           <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Note>
+            <Fingering>
+              <pos x="1.05828" y="-5.44406"/>
+              <text>2</text>
+              </Fingering>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -1774,6 +1778,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="-1.50188"/>
+              <text>2</text>
+              </Fingering>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -4134,22 +4142,13 @@
             <tpc>18</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0.756658" y="5.5"/>
-          <style>Fingering</style>
-          <text><sym>lyricsElisionWide</sym></text>
-          </StaffText>
         <Chord>
           <dots>1</dots>
           <durationType>eighth</durationType>
           <Note>
             <Fingering>
-              <pos x="0.0697696" y="1.5"/>
+              <pos x="0.658281" y="1.50188"/>
               <text>5</text>
-              </Fingering>
-            <Fingering>
-              <pos x="1.29257" y="1.5"/>
-              <text>3</text>
               </Fingering>
             <pitch>47</pitch>
             <tpc>19</tpc>
@@ -4158,6 +4157,10 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="1.50188"/>
+              <text>3</text>
+              </Fingering>
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
@@ -4166,6 +4169,10 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="1.50188"/>
+              <text>1</text>
+              </Fingering>
             <pitch>50</pitch>
             <tpc>16</tpc>
             </Note>
