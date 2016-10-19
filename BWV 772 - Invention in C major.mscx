@@ -2261,36 +2261,75 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <Beam id="2">
+          </Beam>
+        <Tuplet id="1">
+          <direction>up</direction>
+          <bracketType>1</bracketType>
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>32nd</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
         <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Articulation>
-            <subtype>prall</subtype>
-            <play>0</play>
-            <pos x="0.658281" y="-1.98"/>
-            </Articulation>
+          <Tuplet>1</Tuplet>
+          <durationType>32nd</durationType>
+          <Beam>2</Beam>
           <Note>
             <Fingering>
-              <pos x="-0.5" y="-6"/>
+              <pos x="1.05828" y="-7.69"/>
               <text>1</text>
-              </Fingering>
-            <Fingering>
-              <pos x="0.5" y="-6"/>
-              <text>3</text>
-              </Fingering>
-            <Fingering>
-              <pos x="1.5" y="-6"/>
-              <text>2</text>
               </Fingering>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
           </Chord>
         <Chord>
-          <durationType>16th</durationType>
+          <Tuplet>1</Tuplet>
+          <durationType>32nd</durationType>
+          <Beam>2</Beam>
           <Note>
             <Fingering>
-              <pos x="1.05828" y="-4.36511"/>
+              <pos x="1.05828" y="-7.19"/>
+              <text>3</text>
+              </Fingering>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>1</Tuplet>
+          <durationType>32nd</durationType>
+          <Beam>2</Beam>
+          <Note>
+            <Fingering>
+              <pos x="1.05828" y="-7.69"/>
+              <text>2</text>
+              </Fingering>
+            <Tie id="2">
+              </Tie>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>2</Beam>
+          <Note>
+            <endSpanner id="2"/>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>2</Beam>
+          <Note>
+            <Fingering>
+              <pos x="1.05828" y="-5.87"/>
               <text>1</text>
               </Fingering>
             <pitch>69</pitch>
@@ -2299,9 +2338,10 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>2</Beam>
           <Note>
             <Fingering>
-              <pos x="1.05828" y="-4.44406"/>
+              <pos x="1.05828" y="-6.44"/>
               <text>2</text>
               </Fingering>
             <pitch>67</pitch>
@@ -2740,7 +2780,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <Tie id="2">
+            <Tie id="3">
               </Tie>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -2751,7 +2791,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="2"/>
+            <endSpanner id="3"/>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -2787,11 +2827,11 @@
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <Beam id="2">
+        <Beam id="3">
           </Beam>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
+          <Beam>3</Beam>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2799,7 +2839,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
+          <Beam>3</Beam>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -2807,7 +2847,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
+          <Beam>3</Beam>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -2815,7 +2855,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
+          <Beam>3</Beam>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -2989,25 +3029,56 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
+        <Beam id="4">
+          <StemDirection>up</StemDirection>
+          </Beam>
+        <Tuplet id="2">
+          <bracketType>1</bracketType>
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>32nd</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
         <Chord>
-          <BeamMode>begin</BeamMode>
-          <durationType>eighth</durationType>
-          <Articulation>
-            <subtype>prall</subtype>
-            <play>0</play>
-            <pos x="0.658281" y="-0.5"/>
-            </Articulation>
+          <Tuplet>2</Tuplet>
+          <durationType>32nd</durationType>
+          <Beam>4</Beam>
           <Note>
             <Fingering>
-              <pos x="-0.5" y="-4"/>
+              <pos x="1.05828" y="-7.69"/>
               <text>1</text>
               </Fingering>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>2</Tuplet>
+          <durationType>32nd</durationType>
+          <Beam>4</Beam>
+          <Note>
             <Fingering>
-              <pos x="0.5" y="-4"/>
+              <pos x="1.05828" y="-7.19"/>
               <text>3</text>
               </Fingering>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Slur id="4">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <Tuplet>2</Tuplet>
+          <durationType>32nd</durationType>
+          <Beam>4</Beam>
+          <Slur type="start" id="4"/>
+          <Note>
             <Fingering>
-              <pos x="1.5" y="-4"/>
+              <pos x="1.05828" y="-7.69"/>
               <text>2</text>
               </Fingering>
             <pitch>72</pitch>
@@ -3016,9 +3087,19 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>4</Beam>
+          <Slur type="stop" id="4"/>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Beam>4</Beam>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-1.50188"/>
+              <pos x="0.658281" y="-6"/>
               <text>1</text>
               </Fingering>
             <pitch>71</pitch>
@@ -3027,9 +3108,10 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
+          <Beam>4</Beam>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-1.50188"/>
+              <pos x="0.658281" y="-6.5"/>
               <text>2</text>
               </Fingering>
             <pitch>69</pitch>
@@ -3106,7 +3188,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="3">
+            <Tie id="5">
               </Tie>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -3118,7 +3200,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="3"/>
+            <endSpanner id="5"/>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -3175,7 +3257,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="4">
+            <Tie id="6">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -3187,7 +3269,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="4"/>
+            <endSpanner id="6"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -3244,7 +3326,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="5">
+            <Tie id="7">
               </Tie>
             <pitch>77</pitch>
             <tpc>13</tpc>
@@ -3255,7 +3337,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="5"/>
+            <endSpanner id="7"/>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -3316,7 +3398,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="6">
+            <Tie id="8">
               </Tie>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -3327,7 +3409,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="6"/>
+            <endSpanner id="8"/>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -4031,7 +4113,7 @@
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <Tie id="7">
+            <Tie id="9">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -4042,7 +4124,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="7"/>
+            <endSpanner id="9"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
@@ -5177,7 +5259,7 @@
               <pos x="0.630667" y="5"/>
               <text>1</text>
               </Fingering>
-            <Tie id="8">
+            <Tie id="10">
               </Tie>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -5186,7 +5268,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="8"/>
+            <endSpanner id="10"/>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -5245,7 +5327,7 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Tie id="9">
+            <Tie id="11">
               </Tie>
             <pitch>59</pitch>
             <tpc>19</tpc>
@@ -5254,7 +5336,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="9"/>
+            <endSpanner id="11"/>
             <pitch>59</pitch>
             <tpc>19</tpc>
             </Note>
@@ -5326,7 +5408,7 @@
               <pos x="0.71474" y="5"/>
               <text>1</text>
               </Fingering>
-            <Tie id="10">
+            <Tie id="12">
               </Tie>
             <pitch>60</pitch>
             <tpc>14</tpc>
@@ -5335,7 +5417,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <endSpanner id="10"/>
+            <endSpanner id="12"/>
             <pitch>60</pitch>
             <tpc>14</tpc>
             </Note>
