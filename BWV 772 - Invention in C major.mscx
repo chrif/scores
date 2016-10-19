@@ -90,22 +90,22 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="noteh" value="h"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
+          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentals" code="0x266d"/>
+          <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notee" value="e"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="#" code="0x266f"/>
           <sym name="b" code="0x266d"/>
+          <sym name="#" code="0x266f"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -1695,7 +1695,7 @@
           <Note>
             <Fingering>
               <pos x="1.05828" y="-3.94406"/>
-              <text>4</text>
+              <text>5</text>
               </Fingering>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1705,6 +1705,10 @@
           <durationType>eighth</durationType>
           <Beam>1</Beam>
           <Note>
+            <Fingering>
+              <pos x="1.05828" y="-4.44406"/>
+              <text>3</text>
+              </Fingering>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -1791,7 +1795,7 @@
           <Note>
             <Fingering>
               <pos x="0.658281" y="-1.50188"/>
-              <text>4</text>
+              <text>5</text>
               </Fingering>
             <pitch>79</pitch>
             <tpc>15</tpc>
@@ -1800,6 +1804,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="-1.50188"/>
+              <text>3</text>
+              </Fingering>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -2256,10 +2264,23 @@
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>prall</subtype>
+            <play>0</play>
+            <pos x="0.658281" y="-1.98"/>
+            </Articulation>
           <Note>
             <Fingering>
-              <pos x="1.05828" y="-4.44406"/>
+              <pos x="-0.5" y="-6"/>
               <text>1</text>
+              </Fingering>
+            <Fingering>
+              <pos x="0.5" y="-6"/>
+              <text>3</text>
+              </Fingering>
+            <Fingering>
+              <pos x="1.5" y="-6"/>
+              <text>2</text>
               </Fingering>
             <pitch>71</pitch>
             <tpc>19</tpc>
@@ -2270,7 +2291,7 @@
           <Note>
             <Fingering>
               <pos x="1.05828" y="-4.36511"/>
-              <text>2</text>
+              <text>1</text>
               </Fingering>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2281,7 +2302,7 @@
           <Note>
             <Fingering>
               <pos x="1.05828" y="-4.44406"/>
-              <text>1</text>
+              <text>2</text>
               </Fingering>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2294,7 +2315,7 @@
           <Note>
             <Fingering>
               <pos x="1.05828" y="-4.81906"/>
-              <text>2</text>
+              <text>1</text>
               </Fingering>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -2971,7 +2992,24 @@
         <Chord>
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>prall</subtype>
+            <play>0</play>
+            <pos x="0.658281" y="-0.5"/>
+            </Articulation>
           <Note>
+            <Fingering>
+              <pos x="-0.5" y="-4"/>
+              <text>1</text>
+              </Fingering>
+            <Fingering>
+              <pos x="0.5" y="-4"/>
+              <text>3</text>
+              </Fingering>
+            <Fingering>
+              <pos x="1.5" y="-4"/>
+              <text>2</text>
+              </Fingering>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -2979,6 +3017,10 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="-1.50188"/>
+              <text>1</text>
+              </Fingering>
             <pitch>71</pitch>
             <tpc>19</tpc>
             </Note>
@@ -3013,7 +3055,7 @@
           <Note>
             <Fingering>
               <pos x="0.658281" y="-1.50188"/>
-              <text>4</text>
+              <text>5</text>
               </Fingering>
             <pitch>81</pitch>
             <tpc>17</tpc>
@@ -3133,10 +3175,6 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Fingering>
-              <pos x="0.694375" y="-1.49"/>
-              <text>3</text>
-              </Fingering>
             <Tie id="4">
               </Tie>
             <pitch>77</pitch>
@@ -3157,10 +3195,6 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <Fingering>
-              <pos x="0.658281" y="-1.50188"/>
-              <text>4</text>
-              </Fingering>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -3229,6 +3263,10 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="-1.50188"/>
+              <text>2</text>
+              </Fingering>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3278,10 +3316,6 @@
         <Chord>
           <durationType>half</durationType>
           <Note>
-            <Fingering>
-              <pos x="0.694375" y="-1.49"/>
-              <text>3</text>
-              </Fingering>
             <Tie id="6">
               </Tie>
             <pitch>76</pitch>
@@ -3301,6 +3335,10 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="-1.50188"/>
+              <text>2</text>
+              </Fingering>
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
@@ -3350,6 +3388,10 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="-1.50188"/>
+              <text>1</text>
+              </Fingering>
             <pitch>74</pitch>
             <tpc>16</tpc>
             </Note>
@@ -3357,10 +3399,6 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <Fingering>
-              <pos x="0.658281" y="-1.50188"/>
-              <text>1</text>
-              </Fingering>
             <pitch>76</pitch>
             <tpc>18</tpc>
             </Note>
@@ -3412,6 +3450,10 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="-1.50188"/>
+              <text>1</text>
+              </Fingering>
             <pitch>77</pitch>
             <tpc>13</tpc>
             </Note>
@@ -3419,10 +3461,6 @@
         <Chord>
           <durationType>16th</durationType>
           <Note>
-            <Fingering>
-              <pos x="0.658281" y="-1.50188"/>
-              <text>1</text>
-              </Fingering>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -3483,6 +3521,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="-1.50188"/>
+              <text>2</text>
+              </Fingering>
             <pitch>79</pitch>
             <tpc>15</tpc>
             </Note>
@@ -3712,10 +3754,6 @@
             <pitch>72</pitch>
             <tpc>14</tpc>
             </Note>
-          <Arpeggio>
-            <subtype>0</subtype>
-            <userLen2>3.06364</userLen2>
-            </Arpeggio>
           </Chord>
         <BarLine>
           <subtype>end</subtype>
@@ -4439,10 +4477,6 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Fingering>
-              <pos x="0.658281" y="1.50188"/>
-              <text>3</text>
-              </Fingering>
             <pitch>65</pitch>
             <tpc>13</tpc>
             </Note>
@@ -4464,6 +4498,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="1.50188"/>
+              <text>5</text>
+              </Fingering>
             <pitch>62</pitch>
             <tpc>16</tpc>
             </Note>
@@ -4529,10 +4567,6 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <Fingering>
-              <pos x="0.658281" y="1.50188"/>
-              <text>3</text>
-              </Fingering>
             <pitch>67</pitch>
             <tpc>15</tpc>
             </Note>
@@ -4554,6 +4588,10 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <Fingering>
+              <pos x="0.658281" y="1.50188"/>
+              <text>5</text>
+              </Fingering>
             <pitch>64</pitch>
             <tpc>18</tpc>
             </Note>
@@ -5610,10 +5648,6 @@
             <pitch>48</pitch>
             <tpc>14</tpc>
             </Note>
-          <Arpeggio>
-            <subtype>0</subtype>
-            <userLen1>4.44227</userLen1>
-            </Arpeggio>
           </Chord>
         </Measure>
       </Staff>
