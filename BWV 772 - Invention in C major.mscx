@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3</programVersion>
-  <programRevision>3c7a69d</programRevision>
+  <programVersion>2.0.3.1</programVersion>
+  <programRevision>6347ed6</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -90,6 +90,8 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
+          <sym name="accidentalis" code="0x266f"/>
+          <sym name="notee" value="e"/>
           <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
@@ -99,13 +101,11 @@
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notee" value="e"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
-          <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
+          <sym name="b" code="0x266d"/>
           </font>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
@@ -2261,75 +2261,38 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <Beam id="2">
-          </Beam>
-        <Tuplet id="1">
-          <direction>up</direction>
-          <bracketType>1</bracketType>
-          <normalNotes>2</normalNotes>
-          <actualNotes>3</actualNotes>
-          <baseNote>32nd</baseNote>
-          <Number>
-            <style>Tuplet</style>
-            <text>3</text>
-            </Number>
-          </Tuplet>
         <Chord>
-          <Tuplet>1</Tuplet>
-          <durationType>32nd</durationType>
-          <Beam>2</Beam>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>mordent</subtype>
+            <play>0</play>
+            <ornamentStyle>baroque</ornamentStyle>
+            <pos x="0.658281" y="-2.73"/>
+            </Articulation>
           <Note>
             <Fingering>
-              <pos x="1.05828" y="-7.69"/>
+              <pos x="-0.5" y="-7"/>
               <text>1</text>
               </Fingering>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <Tuplet>1</Tuplet>
-          <durationType>32nd</durationType>
-          <Beam>2</Beam>
-          <Note>
             <Fingering>
-              <pos x="1.05828" y="-7.19"/>
+              <pos x="0.5" y="-7"/>
               <text>3</text>
               </Fingering>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <Tuplet>1</Tuplet>
-          <durationType>32nd</durationType>
-          <Beam>2</Beam>
-          <Note>
             <Fingering>
-              <pos x="1.05828" y="-7.69"/>
+              <pos x="1.5" y="-7"/>
               <text>2</text>
               </Fingering>
-            <Tie id="2">
-              </Tie>
             <pitch>71</pitch>
             <tpc>19</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
-          <Note>
-            <endSpanner id="2"/>
-            <pitch>71</pitch>
-            <tpc>19</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>2</Beam>
           <Note>
             <Fingering>
-              <pos x="1.05828" y="-5.87"/>
+              <pos x="1.05828" y="-4.94324"/>
               <text>1</text>
               </Fingering>
             <pitch>69</pitch>
@@ -2338,14 +2301,91 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
           <Note>
             <Fingering>
-              <pos x="1.05828" y="-6.44"/>
+              <pos x="1.05828" y="-5.19406"/>
               <text>2</text>
               </Fingering>
             <pitch>67</pitch>
             <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <tick>11040</tick>
+        <Tuplet id="1">
+          <track>1</track>
+          <visible>0</visible>
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>32nd</baseNote>
+          <Number>
+            <track>1</track>
+            <visible>0</visible>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <track>1</track>
+          <Tuplet>1</Tuplet>
+          <small>1</small>
+          <durationType>32nd</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>1</track>
+          <Tuplet>1</Tuplet>
+          <small>1</small>
+          <durationType>32nd</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>1</track>
+          <Tuplet>1</Tuplet>
+          <small>1</small>
+          <durationType>32nd</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <Tie id="2">
+              <track>1</track>
+              <visible>0</visible>
+              <SlurSegment no="0">
+                <track>1</track>
+                <visible>0</visible>
+                </SlurSegment>
+              </Tie>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>1</track>
+          <small>1</small>
+          <durationType>16th</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <endSpanner id="2"/>
+            <pitch>71</pitch>
+            <tpc>19</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -2827,11 +2867,11 @@
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <Beam id="3">
+        <Beam id="2">
           </Beam>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>3</Beam>
+          <Beam>2</Beam>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2839,7 +2879,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>3</Beam>
+          <Beam>2</Beam>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -2847,7 +2887,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>3</Beam>
+          <Beam>2</Beam>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -2855,7 +2895,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>3</Beam>
+          <Beam>2</Beam>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -3029,77 +3069,38 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <Beam id="4">
-          <StemDirection>up</StemDirection>
-          </Beam>
-        <Tuplet id="2">
-          <bracketType>1</bracketType>
-          <normalNotes>2</normalNotes>
-          <actualNotes>3</actualNotes>
-          <baseNote>32nd</baseNote>
-          <Number>
-            <style>Tuplet</style>
-            <text>3</text>
-            </Number>
-          </Tuplet>
         <Chord>
-          <Tuplet>2</Tuplet>
-          <durationType>32nd</durationType>
-          <Beam>4</Beam>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>mordent</subtype>
+            <play>0</play>
+            <ornamentStyle>baroque</ornamentStyle>
+            <pos x="0.658281" y="-0.5"/>
+            </Articulation>
           <Note>
             <Fingering>
-              <pos x="1.05828" y="-7.69"/>
+              <pos x="-0.5" y="-3.5"/>
               <text>1</text>
               </Fingering>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <Tuplet>2</Tuplet>
-          <durationType>32nd</durationType>
-          <Beam>4</Beam>
-          <Note>
             <Fingering>
-              <pos x="1.05828" y="-7.19"/>
+              <pos x="0.5" y="-3.5"/>
               <text>3</text>
+              </Fingering>
+            <Fingering>
+              <pos x="1.5" y="-3.5"/>
+              <text>2</text>
               </Fingering>
             <pitch>74</pitch>
             <tpc>16</tpc>
-            </Note>
-          </Chord>
-        <Slur id="4">
-          <track>0</track>
-          </Slur>
-        <Chord>
-          <Tuplet>2</Tuplet>
-          <durationType>32nd</durationType>
-          <Beam>4</Beam>
-          <Slur type="start" id="4"/>
-          <Note>
-            <Fingering>
-              <pos x="1.05828" y="-7.69"/>
-              <text>2</text>
-              </Fingering>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>4</Beam>
-          <Slur type="stop" id="4"/>
-          <Note>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>16th</durationType>
-          <Beam>4</Beam>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-6"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>71</pitch>
@@ -3108,14 +3109,99 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>4</Beam>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-6.5"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>2</text>
               </Fingering>
             <pitch>69</pitch>
             <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <tick>26400</tick>
+        <Beam id="3">
+          <track>1</track>
+          <visible>0</visible>
+          </Beam>
+        <Tuplet id="2">
+          <track>1</track>
+          <visible>0</visible>
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>32nd</baseNote>
+          <Number>
+            <track>1</track>
+            <visible>0</visible>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <track>1</track>
+          <Tuplet>2</Tuplet>
+          <small>1</small>
+          <durationType>32nd</durationType>
+          <Beam>3</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>1</track>
+          <Tuplet>2</Tuplet>
+          <small>1</small>
+          <durationType>32nd</durationType>
+          <Beam>3</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>1</track>
+          <Tuplet>2</Tuplet>
+          <small>1</small>
+          <durationType>32nd</durationType>
+          <Beam>3</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <Tie id="4">
+              <track>1</track>
+              <visible>0</visible>
+              <SlurSegment no="0">
+                <track>1</track>
+                <visible>0</visible>
+                </SlurSegment>
+              </Tie>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>1</track>
+          <small>1</small>
+          <durationType>16th</durationType>
+          <Beam>3</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <endSpanner id="4"/>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
