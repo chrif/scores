@@ -91,16 +91,16 @@
         <font id="0" family="default">
           <mag>1</mag>
           <sym name="accidentalis" code="0x266f"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
-          <sym name="noteg" value="g"/>
-          <sym name="noteh" value="h"/>
-          <sym name="accidentales" code="0x266d"/>
           <sym name="accidentals" code="0x266d"/>
           <sym name="notea" value="a"/>
           <sym name="noteb" value="b"/>
           <sym name="notec" value="c"/>
           <sym name="noted" value="d"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
+          <sym name="accidentales" code="0x266d"/>
+          <sym name="noteg" value="g"/>
+          <sym name="noteh" value="h"/>
           </font>
         <font id="1" family="FreeSerif">
           <mag>1.2</mag>
@@ -2311,6 +2311,10 @@
             </Note>
           </Chord>
         <tick>11040</tick>
+        <Beam id="2">
+          <track>1</track>
+          <visible>0</visible>
+          </Beam>
         <Tuplet id="1">
           <track>1</track>
           <visible>0</visible>
@@ -2329,6 +2333,7 @@
           <Tuplet>1</Tuplet>
           <small>1</small>
           <durationType>32nd</durationType>
+          <Beam>2</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -2343,6 +2348,7 @@
           <Tuplet>1</Tuplet>
           <small>1</small>
           <durationType>32nd</durationType>
+          <Beam>2</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -2357,6 +2363,7 @@
           <Tuplet>1</Tuplet>
           <small>1</small>
           <durationType>32nd</durationType>
+          <Beam>2</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -2378,6 +2385,7 @@
           <track>1</track>
           <small>1</small>
           <durationType>16th</durationType>
+          <Beam>2</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -2867,11 +2875,11 @@
             <tpc>22</tpc>
             </Note>
           </Chord>
-        <Beam id="2">
+        <Beam id="3">
           </Beam>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
+          <Beam>3</Beam>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -2879,7 +2887,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
+          <Beam>3</Beam>
           <Note>
             <pitch>66</pitch>
             <tpc>20</tpc>
@@ -2887,7 +2895,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
+          <Beam>3</Beam>
           <Note>
             <pitch>68</pitch>
             <tpc>22</tpc>
@@ -2895,7 +2903,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Beam>2</Beam>
+          <Beam>3</Beam>
           <Note>
             <pitch>64</pitch>
             <tpc>18</tpc>
@@ -3119,7 +3127,7 @@
             </Note>
           </Chord>
         <tick>26400</tick>
-        <Beam id="3">
+        <Beam id="4">
           <track>1</track>
           <visible>0</visible>
           </Beam>
@@ -3141,7 +3149,7 @@
           <Tuplet>2</Tuplet>
           <small>1</small>
           <durationType>32nd</durationType>
-          <Beam>3</Beam>
+          <Beam>4</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -3156,7 +3164,7 @@
           <Tuplet>2</Tuplet>
           <small>1</small>
           <durationType>32nd</durationType>
-          <Beam>3</Beam>
+          <Beam>4</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -3171,7 +3179,7 @@
           <Tuplet>2</Tuplet>
           <small>1</small>
           <durationType>32nd</durationType>
-          <Beam>3</Beam>
+          <Beam>4</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -3193,7 +3201,7 @@
           <track>1</track>
           <small>1</small>
           <durationType>16th</durationType>
-          <Beam>3</Beam>
+          <Beam>4</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
