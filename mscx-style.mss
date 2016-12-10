@@ -347,7 +347,6 @@
       <name>Tempo</name>
       <family>FreeSerif</family>
       <size>12</size>
-      <bold>1</bold>
       <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
       <systemFlag>1</systemFlag>
       </TextStyle>
