@@ -28,7 +28,6 @@
       <chordDescriptionFile>stdchords.xml</chordDescriptionFile>
       <hideInstrumentNameIfOneInstrument>0</hideInstrumentNameIfOneInstrument>
       <showFooter>0</showFooter>
-      <voltaY>-2</voltaY>
       <keySigNaturals>1</keySigNaturals>
       <tupletOufOfStaff>0</tupletOufOfStaff>
       <TextStyle>
@@ -408,45 +407,33 @@
       <ChordList>
         <font id="0" family="default">
           <mag>1</mag>
-          <sym name="triangle" code="0x394"/>
-          <sym name="accidentalis" code="0x266f"/>
-          <sym name="notea" value="a"/>
-          <sym name="noteb" value="b"/>
-          <sym name="oslash" code="0xf8"/>
-          <sym name="notec" value="c"/>
-          <sym name="bb" value="𝄫"/>
-          <sym name="noted" value="d"/>
-          <sym name="notee" value="e"/>
-          <sym name="notef" value="f"/>
           <sym name="noteg" value="g"/>
           <sym name="noteh" value="h"/>
+          <sym name="accidentalis" code="0x266f"/>
           <sym name="accidentals" code="0x266d"/>
-          <sym name="german_Bb" code="0x266d"/>
-          <sym name="natural" code="0x266e"/>
+          <sym name="notea" value="a"/>
+          <sym name="noteb" value="b"/>
+          <sym name="notec" value="c"/>
+          <sym name="noted" value="d"/>
           <sym name="accidentales" code="0x266d"/>
-          <sym name="##" value="𝄪"/>
-          <sym name="circle" code="0x3bf"/>
+          <sym name="notee" value="e"/>
+          <sym name="notef" value="f"/>
           </font>
-        <font id="1" family="default">
-          <mag>1</mag>
+        <font id="1" family="FreeSerif">
+          <mag>1.2</mag>
           <sym name="b" code="0x266d"/>
           <sym name="#" code="0x266f"/>
           </font>
-        <font id="2" family="FreeSerif">
+        <font id="2" family="default">
+          <mag>1</mag>
+          </font>
+        <font id="3" family="FreeSerif">
           <mag>1.2</mag>
           </font>
-        <token>
-          <name>t</name>
-          <name>^</name>
-          <render>triangle</render>
-          </token>
-        <token>
-          <name>0</name>
-          <render>oslash</render>
-          </token>
         <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
         <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
         <chord id="1">
+          <name></name>
           <name></name>
           <xml>major</xml>
           <voicing>C E G</voicing>
@@ -1880,7 +1867,6 @@
         </Staff>
       <trackName>Pipe Organ</trackName>
       <Instrument>
-        <longName>Pipe Organ</longName>
         <trackName>Pipe Organ</trackName>
         <Channel>
           <program value="19"/>
@@ -1921,6 +1907,9 @@
           </Chord>
         </Measure>
       <Measure number="2">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <BeamMode>no</BeamMode>
           <durationType>quarter</durationType>
@@ -2178,7 +2167,6 @@
         <Volta id="3">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>1</text>
             </beginText>
           <endings>1</endings>
@@ -2268,7 +2256,6 @@
         <endSpanner id="3"/>
         <Volta id="5">
           <beginText>
-            <style>Volta</style>
             <text>2</text>
             </beginText>
           <endings>2</endings>

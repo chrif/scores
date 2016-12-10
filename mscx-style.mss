@@ -151,7 +151,7 @@
     <oddFooterL></oddFooterL>
     <oddFooterC>$:copyright:</oddFooterC>
     <oddFooterR>$p</oddFooterR>
-    <voltaY>-2</voltaY>
+    <voltaY>-3</voltaY>
     <voltaHook>1.9</voltaHook>
     <voltaLineWidth>0.1</voltaLineWidth>
     <voltaLineStyle>1</voltaLineStyle>
@@ -601,17 +601,17 @@
     <ChordList>
       <font id="0" family="default">
         <mag>1</mag>
-        <sym name="notee" value="e"/>
-        <sym name="notef" value="f"/>
         <sym name="noteg" value="g"/>
         <sym name="noteh" value="h"/>
-        <sym name="accidentales" code="0x266d"/>
+        <sym name="accidentalis" code="0x266f"/>
         <sym name="accidentals" code="0x266d"/>
         <sym name="notea" value="a"/>
         <sym name="noteb" value="b"/>
-        <sym name="accidentalis" code="0x266f"/>
         <sym name="notec" value="c"/>
         <sym name="noted" value="d"/>
+        <sym name="accidentales" code="0x266d"/>
+        <sym name="notee" value="e"/>
+        <sym name="notef" value="f"/>
         </font>
       <font id="1" family="FreeSerif">
         <mag>1.2</mag>
@@ -621,6 +621,7 @@
       <renderRoot>:n m:0:-1 :a m:0.5:1</renderRoot>
       <renderBase>m:-0.2:1 / m:0.2:1 :n :a m:0:-2</renderBase>
       <chord id="1">
+        <name></name>
         <name></name>
         <xml>major</xml>
         <voicing>C E G</voicing>
