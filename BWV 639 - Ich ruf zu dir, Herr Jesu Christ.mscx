@@ -2014,7 +2014,6 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <timeStretch>1.1</timeStretch>
             <pos x="0.658281" y="-2.5"/>
             </Articulation>
           <Note>
@@ -2195,7 +2194,6 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <timeStretch>1.1</timeStretch>
             </Articulation>
           <Note>
             <pitch>72</pitch>
@@ -2263,7 +2261,6 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <timeStretch>1.1</timeStretch>
             </Articulation>
           <Note>
             <pitch>72</pitch>
@@ -2370,7 +2367,6 @@
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <timeStretch>1.1</timeStretch>
             </Articulation>
           <Note>
             <pitch>68</pitch>
@@ -2427,7 +2423,6 @@
           <durationType>half</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <timeStretch>1.1</timeStretch>
             </Articulation>
           <Note>
             <pitch>65</pitch>
@@ -2464,7 +2459,6 @@
           <durationType>half</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <timeStretch>1.1</timeStretch>
             </Articulation>
           <Note>
             <pitch>63</pitch>
@@ -2515,7 +2509,6 @@
           <durationType>half</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <timeStretch>1.1</timeStretch>
             </Articulation>
           <Note>
             <pitch>72</pitch>
