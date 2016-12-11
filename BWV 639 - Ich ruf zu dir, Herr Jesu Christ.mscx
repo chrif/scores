@@ -6,6 +6,29 @@
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">440</val>
+        </master>
+      <Fluid>
+        <val id="0">FluidR3 GM2-2.SF2</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.528321</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.5</val>
+        </Zita1>
       </Synthesizer>
     <Division>480</Division>
     <Style>
@@ -1783,7 +1806,7 @@
         </page-layout>
       <Spatium>1.764</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>0</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
@@ -1846,7 +1869,7 @@
         <trackName>Pipe Organ</trackName>
         <Channel>
           <program value="19"/>
-          <controller ctrl="7" value="93"/>
+          <controller ctrl="7" value="84"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           </Channel>
@@ -1907,8 +1930,6 @@
           <Note>
             <pitch>68</pitch>
             <tpc>10</tpc>
-            <velocity>64</velocity>
-            <veloType>user</veloType>
             </Note>
           </Chord>
         <Chord>
@@ -2097,6 +2118,7 @@
             <pitch>73</pitch>
             <tpc>9</tpc>
             <velocity>64</velocity>
+            <play>0</play>
             <veloType>user</veloType>
             </Note>
           </Chord>
@@ -2106,9 +2128,13 @@
           <durationType>eighth</durationType>
           <Slur type="stop" id="2"/>
           <Note>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             <pitch>72</pitch>
             <tpc>14</tpc>
             <velocity>64</velocity>
+            <play>0</play>
             <veloType>user</veloType>
             </Note>
           </Chord>
@@ -2150,6 +2176,39 @@
             <tpc>14</tpc>
             <velocity>64</velocity>
             <veloType>user</veloType>
+            </Note>
+          </Chord>
+        <tick>4800</tick>
+        <Beam id="1">
+          <track>1</track>
+          <visible>0</visible>
+          </Beam>
+        <Chord>
+          <track>1</track>
+          <small>1</small>
+          <durationType>16th</durationType>
+          <Beam>1</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <pitch>73</pitch>
+            <tpc>9</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>1</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <Beam>1</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>1</track>
+            <visible>0</visible>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
