@@ -1794,7 +1794,7 @@
         </page-layout>
       <Spatium>1.764</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>0</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
@@ -2101,10 +2101,15 @@
             </Note>
           </Chord>
         <tick>4800</tick>
+        <Beam id="1">
+          <track>1</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>1</track>
           <small>1</small>
           <durationType>16th</durationType>
+          <Beam>1</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -2118,6 +2123,7 @@
           <track>1</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>1</Beam>
           <noStem>1</noStem>
           <Note>
             <track>1</track>
@@ -4614,10 +4620,15 @@
             </Note>
           </Chord>
         <tick>0</tick>
+        <Beam id="2">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>2</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4631,6 +4642,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>2</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4713,10 +4725,15 @@
             </Note>
           </Chord>
         <tick>480</tick>
+        <Beam id="3">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>3</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4730,6 +4747,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>3</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4743,6 +4761,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>3</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4756,6 +4775,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>3</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4770,10 +4790,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="4">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>4</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4787,6 +4812,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>4</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4800,6 +4826,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>4</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4813,6 +4840,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>4</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4894,10 +4922,15 @@
             </Note>
           </Chord>
         <tick>2400</tick>
+        <Beam id="5">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>5</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4911,6 +4944,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>5</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4924,6 +4958,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>5</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4937,6 +4972,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>5</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4946,10 +4982,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="6">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>6</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4963,6 +5004,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>6</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4976,6 +5018,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>6</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -4989,6 +5032,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>6</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5068,10 +5112,15 @@
             </Note>
           </Chord>
         <tick>4320</tick>
+        <Beam id="7">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>7</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5085,6 +5134,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>7</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5098,6 +5148,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>7</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5111,6 +5162,25 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>7</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Beam id="8">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <Beam>8</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5124,6 +5194,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>8</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5137,19 +5208,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
-          <noStem>1</noStem>
-          <Note>
-            <track>9</track>
-            <visible>0</visible>
-            <pitch>48</pitch>
-            <tpc>14</tpc>
-            <small>1</small>
-            </Note>
-          </Chord>
-        <Chord>
-          <track>9</track>
-          <small>1</small>
-          <durationType>eighth</durationType>
+          <Beam>8</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5163,6 +5222,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>8</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5231,10 +5291,15 @@
             </Note>
           </Chord>
         <tick>6240</tick>
+        <Beam id="9">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>9</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5248,6 +5313,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>9</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5261,6 +5327,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>9</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5274,6 +5341,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>9</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5283,10 +5351,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="10">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>10</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5305,6 +5378,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>10</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5384,10 +5458,15 @@
             </Note>
           </Chord>
         <tick>7680</tick>
+        <Beam id="11">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>11</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5401,6 +5480,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>11</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5414,6 +5494,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>11</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5427,6 +5508,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>11</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5436,10 +5518,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="12">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>12</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5458,6 +5545,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>12</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5471,6 +5559,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>12</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5484,6 +5573,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>12</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5560,10 +5650,15 @@
             </Note>
           </Chord>
         <tick>9600</tick>
+        <Beam id="13">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>13</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5577,6 +5672,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>13</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5590,6 +5686,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>13</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5603,6 +5700,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>13</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5612,10 +5710,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="14">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>14</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5629,6 +5732,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>14</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5642,6 +5746,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>14</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5655,6 +5760,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>14</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5734,10 +5840,15 @@
             </Note>
           </Chord>
         <tick>11520</tick>
+        <Beam id="15">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>15</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5751,6 +5862,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>15</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5764,6 +5876,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>15</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5777,6 +5890,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>15</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5786,10 +5900,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="16">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>16</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5803,6 +5922,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>16</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5816,6 +5936,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>16</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5834,6 +5955,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>16</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5913,10 +6035,15 @@
             </Note>
           </Chord>
         <tick>13440</tick>
+        <Beam id="17">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>17</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5930,6 +6057,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>17</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5943,6 +6071,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>17</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5956,6 +6085,25 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>17</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Beam id="18">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <Beam>18</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -5969,19 +6117,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
-          <noStem>1</noStem>
-          <Note>
-            <track>9</track>
-            <visible>0</visible>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
-            <small>1</small>
-            </Note>
-          </Chord>
-        <Chord>
-          <track>9</track>
-          <small>1</small>
-          <durationType>eighth</durationType>
+          <Beam>18</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6000,6 +6136,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>18</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6013,6 +6150,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>18</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6089,10 +6227,15 @@
             </Note>
           </Chord>
         <tick>15360</tick>
+        <Beam id="19">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>19</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6106,6 +6249,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>19</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6119,6 +6263,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>19</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6132,6 +6277,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>19</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6141,10 +6287,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="20">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>20</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6158,6 +6309,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>20</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6171,6 +6323,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>20</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6184,6 +6337,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>20</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6269,10 +6423,15 @@
             </Note>
           </Chord>
         <tick>17280</tick>
+        <Beam id="21">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>21</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6291,6 +6450,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>21</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6304,6 +6464,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>21</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6317,6 +6478,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>21</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6326,10 +6488,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="22">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>22</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6348,6 +6515,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>22</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6361,6 +6529,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>22</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6379,6 +6548,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>22</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6455,10 +6625,15 @@
             </Note>
           </Chord>
         <tick>19200</tick>
+        <Beam id="23">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>23</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6472,6 +6647,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>23</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6485,6 +6661,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>23</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6498,6 +6675,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>23</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6507,10 +6685,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="24">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>24</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6524,6 +6707,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>24</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6537,6 +6721,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>24</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6550,6 +6735,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>24</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6629,10 +6815,15 @@
             </Note>
           </Chord>
         <tick>21120</tick>
+        <Beam id="25">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>25</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6646,6 +6837,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>25</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6659,6 +6851,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>25</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6672,6 +6865,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>25</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6681,10 +6875,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="26">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>26</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6703,6 +6902,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>26</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6716,6 +6916,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>26</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6729,6 +6930,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>26</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6808,10 +7010,15 @@
             </Note>
           </Chord>
         <tick>23040</tick>
+        <Beam id="27">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>27</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6825,6 +7032,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>27</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6838,6 +7046,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>27</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6856,6 +7065,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>27</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6865,10 +7075,15 @@
             <small>1</small>
             </Note>
           </Chord>
+        <Beam id="28">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>28</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6882,6 +7097,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>28</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6895,6 +7111,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>28</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6908,6 +7125,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>28</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -6984,10 +7202,15 @@
             </Note>
           </Chord>
         <tick>24960</tick>
+        <Beam id="29">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>29</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7001,6 +7224,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>29</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7014,6 +7238,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>29</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7027,6 +7252,25 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>29</Beam>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>31</pitch>
+            <tpc>15</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Beam id="30">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <Beam>30</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7040,19 +7284,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
-          <noStem>1</noStem>
-          <Note>
-            <track>9</track>
-            <visible>0</visible>
-            <pitch>31</pitch>
-            <tpc>15</tpc>
-            <small>1</small>
-            </Note>
-          </Chord>
-        <Chord>
-          <track>9</track>
-          <small>1</small>
-          <durationType>eighth</durationType>
+          <Beam>30</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7066,6 +7298,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>30</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7079,6 +7312,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>30</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7138,10 +7372,15 @@
           <span>1</span>
           </BarLine>
         <tick>26880</tick>
+        <Beam id="31">
+          <track>9</track>
+          <visible>0</visible>
+          </Beam>
         <Chord>
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>31</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7160,6 +7399,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>31</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7173,6 +7413,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>31</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
@@ -7186,6 +7427,7 @@
           <track>9</track>
           <small>1</small>
           <durationType>eighth</durationType>
+          <Beam>31</Beam>
           <noStem>1</noStem>
           <Note>
             <track>9</track>
