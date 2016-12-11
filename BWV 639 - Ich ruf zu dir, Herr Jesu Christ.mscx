@@ -1794,7 +1794,7 @@
         </page-layout>
       <Spatium>1.764</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>0</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
@@ -4585,8 +4585,8 @@
     <Staff id="3">
       <Measure number="1" len="1/4">
         <Clef>
-          <concertClefType>F8vb</concertClefType>
-          <transposingClefType>F8vb</transposingClefType>
+          <concertClefType>F</concertClefType>
+          <transposingClefType>F</transposingClefType>
           </Clef>
         <KeySig>
           <accidental>-4</accidental>
@@ -4600,15 +4600,44 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>29</pitch>
+            <pitch>41</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>0</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>29</pitch>
             <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>29</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -4616,22 +4645,25 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -4640,29 +4672,33 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>40</pitch>
+            <pitch>52</pitch>
             <tpc>18</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -4671,8 +4707,124 @@
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>480</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>40</pitch>
+            <tpc>18</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>flat</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
             <pitch>39</pitch>
             <tpc>11</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -4680,57 +4832,170 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>37</pitch>
+            <pitch>49</pitch>
             <tpc>9</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>37</pitch>
+            <pitch>49</pitch>
             <tpc>9</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>37</pitch>
+            <pitch>49</pitch>
             <tpc>9</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>37</pitch>
+            <pitch>49</pitch>
             <tpc>9</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>2400</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>37</pitch>
+            <tpc>9</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>37</pitch>
+            <tpc>9</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>37</pitch>
+            <tpc>9</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>37</pitch>
+            <tpc>9</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>36</pitch>
             <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>36</pitch>
             <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>41</pitch>
             <tpc>13</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>41</pitch>
             <tpc>13</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -4738,50 +5003,57 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>48</pitch>
+            <pitch>60</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>46</pitch>
+            <pitch>58</pitch>
             <tpc>12</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -4790,8 +5062,119 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
+            <pitch>57</pitch>
+            <tpc>17</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>4320</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
             <pitch>45</pitch>
             <tpc>17</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -4799,29 +5182,33 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>46</pitch>
+            <pitch>58</pitch>
             <tpc>12</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>44</pitch>
+            <pitch>56</pitch>
             <tpc>10</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>43</pitch>
+            <pitch>55</pitch>
             <tpc>15</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -4830,15 +5217,101 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>40</pitch>
+            <pitch>52</pitch>
             <tpc>18</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>6240</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>40</pitch>
+            <tpc>18</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>36</pitch>
             <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -4846,29 +5319,33 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>46</pitch>
+            <pitch>58</pitch>
             <tpc>12</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>44</pitch>
+            <pitch>56</pitch>
             <tpc>10</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>43</pitch>
+            <pitch>55</pitch>
             <tpc>15</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>41</pitch>
+            <pitch>53</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -4877,29 +5354,143 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>40</pitch>
+            <pitch>52</pitch>
             <tpc>18</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>7680</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>41</pitch>
             <tpc>13</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
-            <pitch>36</pitch>
-            <tpc>14</tpc>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>40</pitch>
+            <tpc>18</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>36</pitch>
             <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>36</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -4907,57 +5498,170 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>56</pitch>
+            <tpc>10</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>9600</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>39</pitch>
             <tpc>11</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>39</pitch>
             <tpc>11</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>44</pitch>
             <tpc>10</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>39</pitch>
             <tpc>11</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>41</pitch>
             <tpc>13</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -4965,97 +5669,49 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>39</pitch>
+            <pitch>51</pitch>
             <tpc>11</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>36</pitch>
+            <pitch>48</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>37</pitch>
+            <pitch>49</pitch>
             <tpc>9</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>39</pitch>
+            <pitch>51</pitch>
             <tpc>11</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>32</pitch>
+            <pitch>44</pitch>
             <tpc>10</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>32</pitch>
+            <pitch>44</pitch>
             <tpc>10</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
-            <pitch>28</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>28</pitch>
-            <tpc>18</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="9">
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>29</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>29</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>41</pitch>
-            <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -5066,6 +5722,135 @@
               </Accidental>
             <pitch>40</pitch>
             <tpc>18</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>40</pitch>
+            <tpc>18</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>11520</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>39</pitch>
+            <tpc>11</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>36</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>37</pitch>
+            <tpc>9</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>39</pitch>
+            <tpc>11</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>32</pitch>
+            <tpc>10</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>32</pitch>
+            <tpc>10</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>28</pitch>
+            <tpc>18</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>28</pitch>
+            <tpc>18</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="9">
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -5073,13 +5858,168 @@
           <Note>
             <pitch>41</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>52</pitch>
+            <tpc>18</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>13440</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>29</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>29</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>40</pitch>
+            <tpc>18</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -5087,57 +6027,170 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>15360</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>34</pitch>
             <tpc>12</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>31</pitch>
             <tpc>15</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>36</pitch>
             <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>36</pitch>
             <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -5148,29 +6201,33 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>38</pitch>
+            <pitch>50</pitch>
             <tpc>16</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>38</pitch>
+            <pitch>50</pitch>
             <tpc>16</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>39</pitch>
+            <pitch>51</pitch>
             <tpc>11</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>39</pitch>
+            <pitch>51</pitch>
             <tpc>11</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -5179,15 +6236,17 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>33</pitch>
+            <pitch>45</pitch>
             <tpc>17</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>33</pitch>
+            <pitch>45</pitch>
             <tpc>17</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -5196,15 +6255,137 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>35</pitch>
+            <pitch>47</pitch>
             <tpc>19</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>47</pitch>
+            <tpc>19</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>17280</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>38</pitch>
+            <tpc>16</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>38</pitch>
+            <tpc>16</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>39</pitch>
+            <tpc>11</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>39</pitch>
+            <tpc>11</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>33</pitch>
+            <tpc>17</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>33</pitch>
+            <tpc>17</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
             <pitch>35</pitch>
             <tpc>19</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>35</pitch>
+            <tpc>19</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -5212,57 +6393,170 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>19200</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>36</pitch>
             <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>36</pitch>
             <tpc>14</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>34</pitch>
             <tpc>12</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>34</pitch>
             <tpc>12</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>32</pitch>
             <tpc>10</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>32</pitch>
             <tpc>10</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>31</pitch>
             <tpc>15</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>31</pitch>
             <tpc>15</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -5270,29 +6564,33 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>29</pitch>
+            <pitch>41</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>29</pitch>
+            <pitch>41</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>27</pitch>
+            <pitch>39</pitch>
             <tpc>11</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>27</pitch>
+            <pitch>39</pitch>
             <tpc>11</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -5301,29 +6599,143 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>26</pitch>
+            <pitch>38</pitch>
             <tpc>16</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>26</pitch>
+            <pitch>38</pitch>
             <tpc>16</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>39</pitch>
+            <tpc>11</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>39</pitch>
+            <tpc>11</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>21120</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>29</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>29</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>27</pitch>
             <tpc>11</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>27</pitch>
             <tpc>11</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>26</pitch>
+            <tpc>16</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>26</pitch>
+            <tpc>16</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>27</pitch>
+            <tpc>11</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>27</pitch>
+            <tpc>11</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -5331,15 +6743,17 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>32</pitch>
+            <pitch>44</pitch>
             <tpc>10</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>32</pitch>
+            <pitch>44</pitch>
             <tpc>10</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
@@ -5348,43 +6762,159 @@
             <Accidental>
               <subtype>flat</subtype>
               </Accidental>
+            <pitch>42</pitch>
+            <tpc>8</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>42</pitch>
+            <tpc>8</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>23040</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>32</pitch>
+            <tpc>10</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>32</pitch>
+            <tpc>10</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>flat</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
             <pitch>30</pitch>
             <tpc>8</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>30</pitch>
             <tpc>8</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>29</pitch>
             <tpc>13</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>29</pitch>
             <tpc>13</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>34</pitch>
             <tpc>12</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>34</pitch>
             <tpc>12</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -5392,57 +6922,170 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>43</pitch>
+            <tpc>15</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>41</pitch>
+            <tpc>13</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>49</pitch>
+            <tpc>9</tpc>
+            <play>0</play>
+            </Note>
+          </Chord>
+        <tick>24960</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>34</pitch>
             <tpc>12</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>32</pitch>
             <tpc>10</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>32</pitch>
             <tpc>10</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>31</pitch>
             <tpc>15</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>31</pitch>
             <tpc>15</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>29</pitch>
             <tpc>13</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         <Chord>
+          <track>9</track>
+          <small>1</small>
           <durationType>eighth</durationType>
+          <noStem>1</noStem>
           <Note>
+            <track>9</track>
+            <visible>0</visible>
             <pitch>37</pitch>
             <tpc>9</tpc>
+            <small>1</small>
             </Note>
           </Chord>
         </Measure>
@@ -5453,42 +7096,118 @@
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
-            <pitch>35</pitch>
+            <pitch>47</pitch>
             <tpc>19</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>35</pitch>
+            <pitch>47</pitch>
             <tpc>19</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>36</pitch>
+            <pitch>48</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>36</pitch>
+            <pitch>48</pitch>
             <tpc>14</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>29</pitch>
+            <pitch>41</pitch>
             <tpc>13</tpc>
+            <play>0</play>
             </Note>
           </Chord>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
           </BarLine>
+        <tick>26880</tick>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <Accidental>
+              <subtype>natural</subtype>
+              <track>9</track>
+              <visible>0</visible>
+              </Accidental>
+            <pitch>35</pitch>
+            <tpc>19</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>35</pitch>
+            <tpc>19</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>36</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>eighth</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>36</pitch>
+            <tpc>14</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
+        <Chord>
+          <track>9</track>
+          <small>1</small>
+          <durationType>quarter</durationType>
+          <noStem>1</noStem>
+          <Note>
+            <track>9</track>
+            <visible>0</visible>
+            <pitch>29</pitch>
+            <tpc>13</tpc>
+            <small>1</small>
+            </Note>
+          </Chord>
         </Measure>
       </Staff>
     </Score>
