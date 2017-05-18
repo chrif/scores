@@ -1,4 +1,4 @@
-# MuseScore transcriptions of the music I learn
+# MuseScore sheet music of the music I learn
 
 - BWV 639 - Ich ruf zu dir, Herr Jesu Christ
     - [Score at MuseScore](https://musescore.com/user/117551/scores/3880181)
