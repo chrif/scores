@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
-  <programVersion>2.0.3.1</programVersion>
-  <programRevision>6347ed6</programRevision>
+  <programVersion>2.1.0</programVersion>
+  <programRevision>871c8ce</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1933,6 +1933,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="2">
         <LayoutBreak>
@@ -1986,6 +1990,10 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="3">
         <Chord>
@@ -2091,6 +2099,10 @@
             <tpc>9</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="4">
         <Chord>
@@ -2166,6 +2178,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         <tick>4800</tick>
         <Beam id="1">
           <track>1</track>
@@ -2276,6 +2292,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>end-repeat</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="6">
         <endSpanner id="3"/>
@@ -2363,6 +2383,10 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="7">
         <endSpanner id="5"/>
@@ -2440,6 +2464,10 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="8">
         <Chord>
@@ -2473,6 +2501,10 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="9">
         <Chord>
@@ -2511,6 +2543,10 @@
             <tpc>10</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="10">
         <Chord>
@@ -2534,6 +2570,10 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="11">
         <Chord>
@@ -2561,6 +2601,10 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="12">
         <Chord>
@@ -2581,6 +2625,10 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="13">
         <Chord>
@@ -2615,6 +2663,10 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="14">
         <Chord>
@@ -2640,6 +2692,10 @@
             <tpc>9</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="15">
         <Chord>
@@ -2689,6 +2745,10 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <BarLine>
+          <subtype>normal</subtype>
+          <span from="0" to="8">3</span>
+          </BarLine>
         </Measure>
       <Measure number="16" len="3/4">
         <Tempo>
@@ -2740,7 +2800,7 @@
           </Chord>
         <BarLine>
           <subtype>end</subtype>
-          <span>1</span>
+          <span from="0" to="8">3</span>
           </BarLine>
         </Measure>
       </Staff>
@@ -5489,10 +5549,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>end</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       </Staff>
     <Staff id="3">
@@ -8549,10 +8605,6 @@
             <play>0</play>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>end</subtype>
-          <span>1</span>
-          </BarLine>
         <tick>26880</tick>
         <Beam id="31">
           <track>9</track>
